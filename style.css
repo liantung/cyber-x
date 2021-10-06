@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#wrapper{
+    width: 1000px;
+    margin: auto;
+    background-color: #062134;
+    color: #fbfbfb;;
+    padding: 10px;
+    font-size: 15px;
+}
+#header{
+    font-size: 14px;
+    padding: 20px 0px 20px 20px;
+}
+span{ 
+    color: #1784c9;
+}
+a{
+    text-decoration: none;
+    color:#e1e4e7;
+
+}
+li{
+    list-style: none;
+}
+#header, ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul{
+    flex: 2;
+}
+#main{
+    background-color:#ffffff;
+    padding: 15px;
+
+}
+#main img{
+    width: 100%;
+}
+#projects{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* background-color: #1468a8; */
+}
+.project{
+    width: 290px;
+    height:220px;
+    text-align: left;
+    padding: 10px;
+    background-color: #1468a8;
+}
+#projects h1{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#projects img{
+    width: 40px;
+}
+.header_wrapper{
+    display: flex; flex: 1; 
+    flex-direction: row;
+    align-items: center;
+    
+}
+.project p{
+    text-align: left;
+    margin: 20px;
+    font-size: 13px;
+}
+.project button{
+    padding: 8px;
+    background-color: #198ed8;
+    color: #fafdfe;
+    border-radius: 5px;
+    border: none;
+    font-size: 19px;
+}
+#sub_content{
+    color:black; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h3 {
+    font-size: 21px;
+}
+.content p{ 
+    margin: 10px;
+    
+}
+.content a{
+    color: #5284a7;
+    padding: 35px 0px 0px 0px;
+    font-size: 23px;
+}
+.content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.content h1{
+    flex: 2;
+}
+.quote{
+    display: flex; 
+    flex: 3;
+}
+
+blockquote{
+    background-color: #daedff;
+    margin: 0px;
+    padding: 30px 3px 40px 8px;
+    font-style: italic;
+
+    
+}
+#footer{
+    padding: 10px;
+    margin-top: 3px;
+    background-color: #daedff;
+}
+#footer ul{ 
+    margin: 5px;
+    padding: 0px 300px 0px 300px;
+}
+#footer a{
+    color:  #4c80a7;
+}
+#footer span{
+    color:#a4cff0;
+}
+
+    
+
+
+
